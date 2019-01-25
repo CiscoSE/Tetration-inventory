@@ -1,7 +1,7 @@
 from tetpyclient import RestClient
 import json
 
-API_ENDPOINT="https://perseus-aus.cisco.com"
+API_ENDPOINT="https://your-url"
 
 #__sources__ = "Chris McHenry, Robert Bukosfer, and Tetration OpenAPI documentation"
 #__copyright__ = "Copyright (c) 2018 Cisco and/or its affiliates."
@@ -31,8 +31,8 @@ def main():
                 verify=False)
 
 
-    file_path = '/Users/shjoiner/Downloads/openAPI/download.csv'
-    root_app_scope_name = 'chmchenr'
+    file_path = '/your-path-to-file/download.csv'
+    root_app_scope_name = 'your-root-scope'
     restclient.download(file_path, '/assets/cmdb/download/' + root_app_scope_name)
 
     # Basic Error handling
