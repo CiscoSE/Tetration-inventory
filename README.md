@@ -1,2 +1,2 @@
-# Tetration-IPAM-
-Interface BlueCat IPAM to Tetration to improve host identification
+# Tetration host update
+Download inventory through Tetration API and then upload host-application mapping using custom annotations.
